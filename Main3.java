@@ -28,15 +28,15 @@ public class Main3 {
 		
 		l1.addFirst(a4);    //相比较ArrayList多了 addFirst  addLast
 		
-		l1.remove(0);
-		
-		l1.remove(0);
-
-		l1.removeLast();
-		
-		for(Object x:l1){
+//		l1.remove(0);
+//		
+//		l1.remove(0);
+//
+//		l1.removeLast();
+//		
+		for(Student x:l1){
 			
-			System.out.println(x);
+			System.out.println(x.getName());
 			
 		}
 		
